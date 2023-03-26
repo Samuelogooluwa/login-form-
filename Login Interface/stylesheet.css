@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    background: url('pics.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    color: #fff;
+    top: 50px;
+    left: 50px;
+    border-radius: 30px;
+    box-shadow: 0 15px 10px rgba(0,0,0, 0.5);
+}
+
+.profile-img{
+    width: 100px;
+    position: absolute;
+    top: -40px;
+    left: calc(80% - 45%);
+    border-radius: 50%;
+}
+
+form h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+form label{
+    display: block;
+}
+
+form input[type="text"], input[type="password"]{
+    width: 250px;
+    border: none;
+    background: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+form input[type="button"]{
+    display: block;
+    margin: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    outline-width: none;
+    cursor: pointer;
+}
+form input[type="button"]:hover{
+    background: red;
+    color: #fff;
+}
+.password-reset{
+    text-align: right;
+}
+ 
+.password-reset a{
+    color: #fff;
+}
+.social-login p{
+    text-align: center;
+}
+.social-login p{
+    padding: 25px;
+}
+.facebook{
+    border-radius: 50%;
+    background: rgb(0, 42, 255);
+    padding: 20px;
+    color: #fff;
+    border-spacing: 10px;
+}
+.git{
+    border-radius: 50%;
+    background: rgb(82, 83, );
+    padding: 20px;
+    color: #fff;
+    border-spacing: 10px;
+}
+.google{
+    border-radius: 50%;
+    background: rgb(255, 0, 34);
+    padding: 20px;
+    color: #fff;
+    border-spacing: 10px;
+}
+.linkedin{
+    border-radius: 50%;
+    background: rgb(0, 55, 255);
+    padding: 20px;
+    color: #fff;
+    border-spacing: 10px;
+}
